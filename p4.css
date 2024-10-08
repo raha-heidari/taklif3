@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content:space-around;
+    gap: 2rem;
+    list-style: none;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+body{
+    background-color: rgb(109, 123, 98);
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+    word-spacing: 10px;
+    font-size: 45px;
+    margin-left: 40px;
+ }
+.p1{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25px;
+    line-height: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.p2{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25px;
+    line-height: 25px;
+    color: white;
+    font-size: 17px;
+}
+.s2{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dv2{
+    display: flex;
+    justify-content: flex-end;
+   margin-top: -300px;
+}
+
+.dv3{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+.p3{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25px;
+    line-height: 25px;
+    color: white;
+    font-size: 17px;
+}
+.dv4{
+    display: flex;
+    justify-content: flex-end;
+}
+.p4{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25px;
+    line-height: 25px;
+    color: white;
+    font-size: 17px;
+}
+
+.dv5{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 170px;
+}
+
+.p5{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25px;
+    line-height: 25px;
+    color: white;
+    font-size: 17px;
+}
+
+.tbl td{
+        font-size: 15px;
+        margin: 30px 0;
+        border: 1px solid black;
+        min-width: 200px;
+        border-collapse: collapse;
+        color: white;
+        font-family:'Times New Roman', Times, serif;
+}
+
+.tbl thead tr{
+    text-align: center;
+    background-color: orange;
+    color: black;
+    border: 1px solid black;
+}
+
+.tbl th{
+    padding: 10px 13px;
+    border: 1px solid black;
+}
+
+.tbl tbody td{
+    padding: 10px 13px;
+    text-align: center;
+}
+
+.tbl tbody tr:nth-of-type(even){
+    background-color: rgba(255, 166, 0, 0.283);
+}
+
+table{
+  margin-top: -200px;
+}
+ .im1{
+    margin-left: 20px;
+ }
+
+ .dv6{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.p6{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25px;
+    line-height: 25px;
+    color: white;
+    font-size: 17px;
+}
+
+.dv7{
+    font-weight: bold;
+    border-top: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 10px;
+}
+
+.a7{
+    text-decoration: none;
+    color: orange;
+}
